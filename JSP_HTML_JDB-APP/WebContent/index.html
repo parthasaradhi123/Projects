@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Page</title>
+</head>
+<body bgcolor='lightgreen'>
+		<center>
+		<h1 style='color:red; text-align:center;'>HTML to JSP to DB communication.</h1>
+			<form method='post' action='./employee'>
+				<table border='1' align='center' bgcolor='cyan'>
+					<tr>
+						<th>Employee Name</th>
+						<td><input type="text" name="eName" /></td>
+					</tr>
+					
+					<tr>
+						<th>Employee Address</th>
+						<td><input type="text" name="eAddress" /></td>
+					</tr>
+					
+					<tr>
+						<th>Employee Salary</th>
+						<td><input type="text" name="eSalary" /></td>
+					</tr>
+					
+					<tr>
+						<th>Submit</th>
+						<td><input type="submit" value="register"  name='s1'/></td>
+						<td>
+							<a href='./employee?s1=link'>Get All Employess</a>
+						</td>
+					</tr>
+					
+				</table>
+			</form>
+		</center>
+</body>
+</html>
